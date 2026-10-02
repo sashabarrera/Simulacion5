@@ -14,7 +14,7 @@ body{
     box-shadow:rgba(199, 195, 195, 0.664) 1px 1px 1px;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding:15px;
+    padding:20px;
 }
 
 .logo {
@@ -47,4 +47,19 @@ align-items: center;
     border: solid 1px rgb(187, 184, 184);
 }
 
+/*LADO IZQUIERDO*/
 
+.caja-izquierda{
+    border: solid 2px red;
+}
+.tarjeta-izquierda{
+    border: solid 3px rgb(2, 1, 1);
+}
+.tarjeta{
+    border: solid 4px  green;
+
+}
+.tarjeta-3{
+    border: solid 4px blue;
+
+}

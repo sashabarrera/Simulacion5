@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    box-shadow:rgba(199, 195, 195, 0.664) 1px 1px 1px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:15px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo span {
+    color: rgb(189, 0, 0);
+}
+
+.link a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(104, 103, 103);
+    flex-wrap: wrap;
+}
+
+.barra {
+align-items: center;
+}
+
+.barra input{
+    height: 30px;
+    width:140px ;
+    border-radius:6px ;
+    border: none;
+    border: solid 1px rgb(187, 184, 184);
+}
+
+

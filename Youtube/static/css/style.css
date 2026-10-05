@@ -5,16 +5,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     background-color: white;
 }
 
 .nav {
     display: flex;
-    box-shadow:rgba(199, 195, 195, 0.664) 1px 1px 1px;
+    box-shadow: rgba(199, 195, 195, 0.664) 1px 1px 1px;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding:20px;
+    padding: 20px;
 }
 
 .logo {
@@ -28,7 +28,7 @@ body{
     color: rgb(189, 0, 0);
 }
 
-.link a{
+.link a {
     padding: 10px;
     text-decoration: none;
     color: rgb(104, 103, 103);
@@ -36,30 +36,83 @@ body{
 }
 
 .barra {
-align-items: center;
+    align-items: center;
 }
 
-.barra input{
+.barra input {
     height: 30px;
-    width:140px ;
-    border-radius:6px ;
+    width: 140px;
+    border-radius: 6px;
     border: none;
     border: solid 1px rgb(187, 184, 184);
 }
 
 /*LADO IZQUIERDO*/
 
-.caja-izquierda{
-    border: solid 2px red;
+.caja-izquierda {
+    margin-top: 1px;
+    display: flex;
+    flex-wrap: wrap;
 }
-.tarjeta-izquierda{
-    border: solid 3px rgb(2, 1, 1);
+
+.tarjeta-izquierda {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 2px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
-.tarjeta{
-    border: solid 4px  green;
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+video {
+    height: 350px;
+}
+
+.texto {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contenido-izquiedo {
+    display: flex;
+    gap: 6px;
 
 }
-.tarjeta-3{
-    border: solid 4px blue;
+
+.boton {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.interactividad {
+    display: flex;
+}
+
+.tarjeta-derecha {
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.tarjeta-derecha button {
+    display: flex;
+}
+
+.boton-derecho {
+    border: none;
+    padding: 8px;
 
 }

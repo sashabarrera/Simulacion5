@@ -179,6 +179,7 @@ body {
 /* SECCIÓN MÁS VIDEOS ABAJO */
 .seccion-mas-videos {
     margin-top: 25px;
+    flex-wrap: wrap;
 }
 
 .grid-mas-videos {
